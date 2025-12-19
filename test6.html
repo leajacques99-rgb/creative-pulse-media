@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Candidate Work Sample Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --max-width: 980px;
+      --text-main: #111;
+      --text-muted: #555;
+      --border: #e0e0e0;
+      --primary: #1f6d8c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-main);
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    /* ===== Sticky Header ===== */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      width: 36px;
+      height: 36px;
+      background: #0a2f3f;
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+    }
+
+    .company-name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    /* ===== Main layout ===== */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 56px 16px 80px;
+    }
+
+    h1 {
+      font-size: 44px;
+      line-height: 1.2;
+      text-align: center;
+      margin: 0 0 24px;
+    }
+
+    .intro {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 16px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+
+    /* ===== Two-column section ===== */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+    }
+
+    .muted {
+      color: var(--text-muted);
+    }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .info-list li {
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+
+    .label {
+      font-weight: 600;
+    }
+
+    /* ===== Button ===== */
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 16px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin: 20px 0;
+    }
+
+    /* ===== Submission ===== */
+    .email {
+      font-weight: 600;
+    }
+
+    /* ===== Notice ===== */
+    .notice {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .warning {
+      font-size: 18px;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">NW</div>
+      <div class="company-name">Northwave Digital Solutions LLC</div>
+    </div>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main class="container">
+
+    <h1>Candidate Work Sample Assessment</h1>
+
+    <p class="intro">
+      This work sample assessment represents the final stage of our hiring process.
+      It is intended for shortlisted candidates to demonstrate their practical skills,
+      problem-solving approach, and ability to deliver structured, real-world work aligned
+      with the objectives of <strong>Northwave Digital Solutions LLC</strong>.
+    </p>
+
+    <hr />
+
+    <section class="two-col">
+      <div>
+        <h2>About the Assessment</h2>
+        <p class="muted">
+          Thank you for your interest in joining Northwave Digital Solutions LLC.
+          As part of our final evaluation, selected candidates are asked to complete
+          a practical work sample designed to reflect the tasks and responsibilities
+          associated with this role.
+        </p>
+        <p class="muted">
+          This assessment allows us to better understand how you approach real-world
+          challenges, structure your thinking, and deliver work that meets professional
+          standards.
+        </p>
+      </div>
+
+      <div>
+        <ul class="info-list">
+          <li>
+            <span class="label">Assessment File:</span><br />
+            Final Practical Work Sample (PDF)
+          </li>
+          <li>
+            <span class="label">Time Requirement:</span><br />
+            Details are provided within the document
+          </li>
+          <li>
+            <span class="label">Latest Update:</span><br />
+            March 2025
+          </li>
+        </ul>
+
+        <a href="#" class="btn">Download Assessment (PDF)</a>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Assessment Submission</h2>
+      <p class="muted">
+        Once you have completed the work sample assessment, please submit all required
+        materials by sending them to the email address below. Ensure that all documents
+        are clearly labeled for review.
+      </p>
+      <p class="email">📧 gihapnathumkumar@gmail.com</p>
+    </section>
+
+    <hr />
+
+    <section class="notice">
+      <div class="warning">⚠️</div>
+      <div>
+        <strong>Confidentiality Notice</strong><br />
+        This assessment material is provided solely for evaluation purposes.
+        Please do not distribute, share, or publish this content in any form.
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
