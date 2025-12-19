@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creative Pulse Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    /* ===== TOP SECTION ===== */
+    .top {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      align-items: stretch;
+    }
+
+    .left h1 {
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    .left p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    /* ===== RIGHT CARDS ===== */
+    .cards {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* ===== BOTTOM FULL SECTION ===== */
+    .bottom {
+      margin-top: 60px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .bottom h2 {
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+
+    .email-box {
+      margin-top: 20px;
+      padding: 16px;
+      background: #f1f5f9;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 900px) {
+      .top {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-rows: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- TOP -->
+    <div class="top">
+      <div class="left">
+        <h1>Join Creative Pulse Media</h1>
+        <p>
+          We are looking for creative, responsible and detail-oriented people
+          to collaborate on upcoming digital projects.
+        </p>
+        <a href="mailto:apply@creativepulse.media" class="cta-btn">
+          Apply Now
+        </a>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Flexible Work</h3>
+          <p>Remote-friendly, flexible working hours.</p>
+        </div>
+
+        <div class="card">
+          <h3>Clear Payment</h3>
+          <p>Transparent payment per task or project.</p>
+        </div>
+
+        <div class="card">
+          <h3>Long-term</h3>
+          <p>Opportunity for long-term collaboration.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="bottom">
+      <h2>How to Apply</h2>
+      <p>
+        Please send your portfolio or relevant work samples to the email below.
+        We will review and get back to you as soon as possible.
+      </p>
+
+      <div class="email-box">
+        📩 apply@creativepulse.media
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
