@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Work Sample Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* ===== FIXED HEADER ===== */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 64px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+      z-index: 1000;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 20px;
+    }
+
+    .logo {
+      width: 36px;
+      height: 36px;
+      background: #0f4c75;
+      color: #fff;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .company-name {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 120px 20px 80px; /* chừa chỗ cho header */
+    }
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 40px 0;
+    }
+
+    ul {
+      margin-left: 18px;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    /* ===== DOWNLOAD BUTTON ===== */
+    .download-btn {
+      display: block;
+      width: 100%;
+      background: #0f4c75;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 24px 0;
+    }
+
+    .download-btn:hover {
+      background: #0c3d5f;
+    }
+
+    /* ===== NOTICE ===== */
+    .notice {
+      font-size: 14px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .notice span {
+      color: #d97706;
+      font-size: 18px;
+      line-height: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- FIXED HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">N</div>
+      <div class="company-name">Northwave Digital Solutions LLC</div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <h1>Final Work Sample Assessment</h1>
+    <div class="subtitle">
+      This page provides access to the final practical assessment for shortlisted candidates.
+    </div>
+
+    <hr />
+
+    <section>
+      <h2>About This Assessment</h2>
+      <p>
+        Thank you for submitting your CV. After reviewing your application, we are excited about
+        the possibility of working with you and would like to move forward with the recruitment process.
+      </p>
+      <p>
+        As the final step, we ask you to complete a short work sample designed to reflect the tasks
+        and responsibilities of this role. This assessment helps us better understand your practical
+        skills, strategic thinking, and problem-solving approach, as well as how your work aligns
+        with the objectives of Northwave Digital Solutions LLC.
+      </p>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Assessment Overview</h2>
+      <ul>
+        <li><strong>Format:</strong> PDF document</li>
+        <li><strong>Purpose:</strong> Final work sample assessment</li>
+        <li><strong>Estimated time:</strong> Please refer to the document</li>
+        <li><strong>Last updated:</strong> March 2025</li>
+      </ul>
+
+      <!-- GẮN LINK PDF Ở ĐÂY -->
+      <a
+        class="download-btn"
+        href="assessment.pdf"
+        target="_blank"
+      >
+        Download Assessment (PDF)
+      </a>
+
+      <p>
+        Once completed, please send your documents to:
+        <a href="mailto:gihanpathumkumara@gmail.com">gihanpathumkumara@gmail.com</a>
+      </p>
+      <p>
+        Based on your performance, we will then proceed to discuss salary and the next steps in the recruitment process.
+      </p>
+      <p>
+        We look forward to reviewing your work.
+      </p>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Important Notice</h2>
+      <div class="notice">
+        <span>⚠️</span>
+        <p>
+          This assessment is provided exclusively for evaluation purposes.
+          Please do not distribute, share, or publish this material in any form.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
