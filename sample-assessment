@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Work Sample Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-top: 60px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    hr {
+      margin: 50px 0;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 30px auto;
+      padding: 14px;
+      background: #1f6aa5;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .notice {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Final Work Sample Assessment</h1>
+
+    <p style="text-align:center">
+      This page provides access to the final practical assessment for shortlisted candidates.
+    </p>
+
+    <hr />
+
+    <h2>About This Assessment</h2>
+    <p>
+      Thank you for submitting your CV. After reviewing your application, we are excited
+      about the possibility of working with you and would like to move forward with the
+      recruitment process.
+    </p>
+    <p>
+      As the final step, we ask you to complete a short work sample designed to reflect
+      the tasks and responsibilities of this role.
+    </p>
+
+    <hr />
+
+    <h2>Assessment Overview</h2>
+    <ul>
+      <li><strong>Format:</strong> PDF document</li>
+      <li><strong>Purpose:</strong> Final work sample assessment</li>
+      <li><strong>Estimated time:</strong> Please refer to the document</li>
+      <li><strong>Last updated:</strong> March 2025</li>
+    </ul>
+
+    <a class="btn" href="assessment.pdf" target="_blank">
+      Download Assessment (PDF)
+    </a>
+
+    <p>
+      Once completed, please send your documents to:
+      <br />
+      <strong>your-email@gmail.com</strong>
+    </p>
+
+    <hr />
+
+    <h2>Important Notice</h2>
+    <p class="notice">
+      ⚠️ This assessment is provided exclusively for evaluation purposes.
+      Please do not distribute, share, or publish this material in any form.
+    </p>
+  </div>
+</body>
+</html>
