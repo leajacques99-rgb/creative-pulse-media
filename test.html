@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creative Pulse Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Main layout */
+    .main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 30px;
+    }
+
+    /* Left content */
+    .content {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      line-height: 1.6;
+    }
+
+    .content h2 {
+      margin-top: 0;
+    }
+
+    /* Right cards */
+    .cards {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 16px;
+      background: #0066ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #004ecc;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 50px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .footer strong {
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Creative Pulse Media</h1>
+      <p>Practical test & application landing page</p>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+      <!-- Left -->
+      <div class="content">
+        <h2>About the Test</h2>
+        <p>
+          This practical test is designed to evaluate your real-world skills.
+          Please read carefully and submit your work according to the instructions.
+        </p>
+
+        <p>
+          You are free to use any tools or frameworks, as long as the final output
+          meets the requirements.
+        </p>
+      </div>
+
+      <!-- Right -->
+      <div class="cards">
+
+        <div class="card">
+          <h3>Practical Test</h3>
+          <p>Click below to view full instructions.</p>
+
+          <!-- 👉 LINK NẰM Ở ĐÂY -->
+          <a class="btn" href="https://example.com" target="_blank">
+            View Test
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Deadline</h3>
+          <p>Submit within 72 hours after receiving this test.</p>
+        </div>
+
+        <div class="card">
+          <h3>Submission Format</h3>
+          <p>PDF / Link / GitHub repository</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <strong>Send your submission to:</strong>
+      <p>📧 creativepulsemedia@gmail.com</p>
+    </div>
+
+  </div>
+</body>
+</html>
